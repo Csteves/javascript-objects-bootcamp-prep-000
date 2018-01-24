@@ -5,6 +5,7 @@ function updatePlaylist(playlist, updat) {
 }
 
 function removeFromPlaylist(playlist,artistName) {
-
+delete playlist['Kanye']= playlist;
+return playlist
   
 }
