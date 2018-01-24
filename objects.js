@@ -5,6 +5,6 @@ function updatePlaylist(playlist, updat) {
 }
 
 function removeFromPlaylist(playlist,artistName) {
-
+return Object.assign({}, playlist, {});
   
 }
