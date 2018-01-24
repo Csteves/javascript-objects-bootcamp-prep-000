@@ -5,7 +5,7 @@ function updatePlaylist(playlist, updat) {
 }
 
 function removeFromPlaylist(playlist,artistName) {
-Object.assign({"kanye": "Gold digger"}, {})
+delete playlist.Kanye.Gold Digger;
 return playlist
   
 }
